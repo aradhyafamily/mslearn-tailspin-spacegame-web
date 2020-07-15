@@ -63,7 +63,7 @@ steps:
 variables:
   buildConfiguration: 'Release'
   trigger:
-- '*'
+ '*'
 
 pool:
   vmImage: 'ubuntu-18.04'
@@ -260,4 +260,4 @@ steps:
   condition: succeeded()
 
 
-  
+
